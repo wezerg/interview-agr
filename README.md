@@ -7,6 +7,6 @@ Example :
 - Expected output : `['c', 'cn', 'cns', 'cs', 'n', 'ns', 's']`
 
 Commands :
-- npm install : Install dependancies
-- npm run build : Transpile TS file to JS file
-- npm run test : Run some tests with Jest on TS file
+- `npm install` : Install dependancies
+- `npm run build` : Transpile TS file to JS file
+- `npm run test` : Run some tests with Jest
