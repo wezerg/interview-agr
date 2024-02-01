@@ -23,7 +23,7 @@ type char = typeof lowercaseChars[number];
  * @param arrayPrefix array of chars
  * @returns array of unique strings
  */
-function getStringsFromChars(arrayPrefix: char[]): string[]{
+export default function getStringsFromChars(arrayPrefix: char[]): string[]{
     // List of returning strings
     const listString: string[] = [];
     // Loop on each char of the array in param
@@ -51,7 +51,3 @@ function getStringsFromChars(arrayPrefix: char[]): string[]{
     }
     return listString;
 }
-
-// Appel de la fonction
-getStringsFromChars(['c', 'n', 's']);
-getStringsFromChars(['c', 'h', 'b', 'd']);
